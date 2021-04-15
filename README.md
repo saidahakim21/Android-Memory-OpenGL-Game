@@ -1,5 +1,6 @@
-# Android Memory Game
+### Android Memory Game
 
 Android Memory Game based on OpenGL ES, 
-if anything is not working, make sure you update your android studio with all the required Apis , ... 
- 
+
+One of very first Android projects that i worked on, the project is based on official documentation to build the basic openGL graphical elements 
+
