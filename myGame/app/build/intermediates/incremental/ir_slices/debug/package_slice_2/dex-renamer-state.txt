@@ -1,4 +1,0 @@
-#Sun Oct 21 14:22:57 CEST 2018
-base.0=/home/hakim/Documents/MyGitlab/android-memory-game/app/build/intermediates/transforms/dexMerger/debug/2
-path.0=classes.dex
-renamed.0=classes.dex

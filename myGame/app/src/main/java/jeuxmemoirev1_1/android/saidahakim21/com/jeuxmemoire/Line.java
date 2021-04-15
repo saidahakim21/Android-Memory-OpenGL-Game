@@ -46,7 +46,7 @@ public class Line {
     private final int VertexStride = COORDS_PER_VERTEX * 4; // 4 bytes per vertex
 
     // Set color with red, green, blue and alpha (opacity) values
-    float color[] = { 0.0f, 0.0f, 0.0f, 1.0f };
+    float color[] = {0.0f, 0.0f, 0.0f, 1.0f};
 
     public Line() {
         // initialize vertex byte buffer for shape coordinates
@@ -72,11 +72,7 @@ public class Line {
         GLES20.glLinkProgram(GlProgram);                  // creates OpenGL ES program executables
     }
 
-
-
-
-            // by me
-
+    // ** Custom code here ** //
     public void SetVerts(float v0, float v1, float v2, float v3, float v4, float v5) {
         LineCoords[0] = v0;
         LineCoords[1] = v1;
@@ -89,10 +85,6 @@ public class Line {
         // set the buffer to read the first coordinate
         VertexBuffer.position(0);
     }
-
-
-
-
 
 
     public void SetColor(float red, float green, float blue, float alpha) {
